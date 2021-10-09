@@ -30,7 +30,7 @@ function desenhaCirculo(evento) {
     console.log(x + ", " + y);
 }
 
-var colors = ["blue", "red", "green", "yellow", "orange", "pink", "purple", "black", "white"]
+var colors = ["blue", "red", "green", "yellow", "orange", "pink", "deeppink", "purple", "black"]
 var currentColor = 0; //Cor atual é a azul
 screen.onclick = desenhaCirculo;
 
