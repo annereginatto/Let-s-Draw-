@@ -1,7 +1,7 @@
 var screen = document.querySelector("canvas");
 var brush = screen.getContext("2d");
 
-brush.fillStyle = "white";
+brush.fillStyle = "transparent";
 brush.fillRect(0, 0, 600, 400);
 
 var radius = 10;
