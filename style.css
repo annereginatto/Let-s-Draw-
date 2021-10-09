@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+body {
+    text-align: center;
+    background: #00BFFF;
+    background: -webkit-linear-gradient(to top left, #00BFFF 10%, #E6E6FA 37%, #FFEFD5 69%, #EE82EE 100%);
+    background: -moz-linear-gradient(to top left, #00BFFF 10%, #E6E6FA 37%, #FFEFD5 69%, #EE82EE 100%);
+    background: linear-gradient(to top left, #00BFFF 10%, #E6E6FA 37%, #FFEFD5 69%, #EE82EE 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: lightseagreen;
+    text-shadow: 2px 2px 1px #1c1c1c;
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    letter-spacing: 10px;
+    margin: 30px auto 0;
+    cursor: default;
+    max-width: 500px;
+    width: 100%;
+}
+
+h1:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+    color: #EE82EE;
+}
+
+h3 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor: default;
+    line-height: 2;
+    color: teal;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+h3:hover, h4:hover {
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+
+h4 {
+    cursor: default;
+    font-family: 'Gochi Hand', cursive;
+    color: teal;
+    letter-spacing: 3px;
+    font-size: 18px;
+    max-width: 700px;
+    width: 100%;
+    margin: 20px auto 30px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    cursor: default;
+    font-family: "Gloria Hallelujah", cursive;
+    letter-spacing: 3px;
+    margin: 30px 0 5px 0;
+    color: darkcyan;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  footer p:hover {
+    color: #EE82EE;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+  }
+
+  .icons {
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  #linkedin, #github, #discord, #codepen, #mail {
+      color: darkcyan;
+      padding: 0 10px;
+  }
+
+  #linkedin:hover, #github:hover, #discord:hover, #codepen:hover, #mail:hover {
+    color: #EE82EE;
+  }
+
+   /* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f7f7f7;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #EE82EE;
+    border-radius: 20px;
+  }
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: teal;
+  }
